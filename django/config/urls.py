@@ -12,7 +12,7 @@ schema_view = get_schema_view(
         title='Petodo API',
         default_version='v1',
         description='API documentation for Team4. Project',
-        terms_of_service='https://www.oz-02-main-04.xyz/',
+        terms_of_service='https://www.petodo.today/',
         contact=openapi.Contact(email='contact@example.com'),
         license=openapi.License(name='BSD License'),
     ),

@@ -77,7 +77,7 @@ class MyInfoView(APIView):
 
         # 회원탈퇴 후 토큰 삭제
         response = Response({'message': '회원탈퇴가 완료되었습니다.'}, status=status.HTTP_204_NO_CONTENT)
-        domain = '.oz-02-main-04.xyz'
+        domain = '.petodo.today'
         cookies_to_delete = ['access_token', 'refresh_token', 'csrftoken', 'sessionid']
         for cookie in cookies_to_delete:
             response.delete_cookie(cookie, domain=domain, path='/')

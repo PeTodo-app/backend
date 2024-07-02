@@ -173,15 +173,15 @@ CSRF_COOKIE_HTTPONLY = False
 SESSION_COOKIE_HTTPONLY = False
 CSRF_COOKIE_SAMESITE = 'Lax'
 SESSION_COOKIE_SAMESITE = 'Lax'
-CSRF_TRUSTED_ORIGINS = ['http://localhost:3000', 'http://localhost:8000', 'https://www.oz-02-main-04.xyz', 'https://api.oz-02-main-04.xyz', 'https://oz-02-main-04.xyz',]
+CSRF_TRUSTED_ORIGINS = ['http://localhost:3000', 'http://localhost:8000', 'https://www.petodo.today', 'https://api.petodo.today', 'https://petodo.today',]
 CSRF_COOKIE_NAME = 'csrftoken'
 if platform_index == 'Linux':
     CORS_ORIGIN_ALLOW_ALL = True
-    CSRF_COOKIE_DOMAIN = '.oz-02-main-04.xyz'
-    SESSION_COOKIE_DOMAIN = '.oz-02-main-04.xyz'
+    CSRF_COOKIE_DOMAIN = '.petodo.today'
+    SESSION_COOKIE_DOMAIN = '.petodo.today'
 CORS_ORIGIN_ALLOW_ALL = False
 CORS_ALLOW_CREDENTIALS = True
-CORS_ALLOWED_ORIGINS = ['http://localhost:3000', 'http://localhost:8000', 'https://www.oz-02-main-04.xyz', 'https://api.oz-02-main-04.xyz', 'https://oz-02-main-04.xyz',]
+CORS_ALLOWED_ORIGINS = ['http://localhost:3000', 'http://localhost:8000', 'https://www.petodo.today', 'https://api.petodo.today', 'https://petodo.today',]
 CORS_ALLOW_HEADERS = [
     'access-control-allow-credentials', 'access-control-allow-origin', 'access-control-request-method', 'access-control-request-headers',
     'accept', 'accept-encoding', 'accept-language', 'authorization', 'connection', 'content-type', 'dnt', 'credentials', 'host',
